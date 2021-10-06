@@ -1,21 +1,21 @@
 <template>
     <div>
-        <h1>home page</h1>
+        welcome 
     </div>
 </template>
 
 <script>
 
 export default ({
-   name: 'Home',
-   components: {
+  name: 'Welcome',
+  components: {
 
-   },
-   data(){
-       return {
-
-       }
-   }
+  },
+  data() {
+      return {
+          
+      }
+  },
 })
 </script>
 
