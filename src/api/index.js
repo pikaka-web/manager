@@ -1,6 +1,14 @@
 /**
  * api管理
  */
- export default {
+import request from '../utils/request';
 
+ export default {
+    login(params) {
+        return request({
+            url: '/users/login',
+            method: 'post',
+            data: params,
+        })
+    },
  }
